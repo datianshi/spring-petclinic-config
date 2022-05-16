@@ -2,3 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
 - ../../app/
+images:
+- digest: sha256:de617dbc3918c3333456c19bde3c5e6036cd0dfec39afc94d4c08537b473ec13
+  name: mobbdemoacr.azurecr.io/spring-petclinic:latest
+  newName: mobbdemoacr.azurecr.io/spring-petclinic:0.2.0
