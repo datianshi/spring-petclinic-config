@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
 - ../../app/
 images:
-- digest: sha256:de617dbc3918c3333456c19bde3c5e6036cd0dfec39afc94d4c08537b473ec13
+- digest: sha256:b2f6f3342bd3d6ab4720d7a82dd53d3f222ecbe07075a103b661a8101935e037
   name: mobbdemoacr.azurecr.io/spring-petclinic:latest
-  newName: mobbdemoacr.azurecr.io/spring-petclinic:0.2.0
+  newName: mobbdemoacr.azurecr.io/spring-petclinic:0.3.0-alpha.2
